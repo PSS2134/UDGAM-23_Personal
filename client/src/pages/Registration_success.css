@@ -1,0 +1,216 @@
+.fstbtnsuccess {
+
+    /* top: 50px; */
+    /* padding: 18px 4px; */
+    background-color: #D4F34A;
+    height: 20px;
+    color: #09021C;
+    justify-content: space-evenly;
+    width: 276px;
+    height: 56px;
+    border: 2.31218px solid #09021C;
+    font-family: 'Action Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    border-radius: 4px;
+
+    align-content: center;
+    align-items: center;
+
+}
+
+.scndbtnsuccess {
+    background-color: #09021C;
+    height: 20px;
+    color: #D4F34A;
+    justify-content: space-evenly;
+    width: 276px;
+    height: 56px;
+    border: 2.31218px solid #D4F34A;
+    font-family: 'Action Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    ;
+    align-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.secondbtnsuccess {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.thrdbtnsuccess {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    color: white;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.passbtnsuccess {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.para1btnsuccess {
+    font-size: 33px;
+    text-align: center;
+    color: white;
+    left: 0;
+    bottom: 96px;
+    margin-top: 200px;
+}
+
+.mainbtnsuccess {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 200px;
+    /* background-image: url("/Vector.png"); */
+
+}
+
+.col1btnsuccess {
+    background-repeat: no-repeat;
+    width: 50%;
+}
+
+.col2btnsuccess {
+    position: relative;
+    text-align: center;
+}
+
+.qr_passsuccess {
+    position: absolute;
+    width: 369px;
+    height: 68px;
+    left: 0px;
+    top: 740px;
+
+}
+
+
+.name_passsuccess {
+    width: 265px;
+    height: 38px;
+
+    font-family: 'Action Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.280959px;
+
+    color: #DDF140;
+    position: relative;
+    top: -295px;
+    left: 99px;
+}
+
+
+.mailId_passsuccess {
+    width: 150px;
+    height: 19px;
+
+    font-family: 'Action Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.280959px;
+
+    color: #757575;
+
+    position: relative;
+    top: -273px;
+    left: 105px;
+
+}
+
+.mailbtnsuccessParent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mailbtnsuccess {
+
+
+    background: #1C1C1C;
+
+    width: 335px;
+    height: 288px;
+    position: relative;
+
+    background: #1C1C1C;
+
+}
+
+.mailbtnsuccess svg {
+    position: absolute;
+    left: 63px;
+    top: 33px;
+}
+
+.mailbtnsuccess p {
+    position: absolute;
+    left: 69px;
+    right:69px;
+    top: 120px;
+    text-align: center;
+    color: #fff;
+}
+
+@media (max-width: 800px){
+    /*Tablets [601px -> 1200px]*/
+    .mainbtnsuccess{
+        display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    /* background-image: url(/Vector.png); */
+    justify-content: flex-start;
+    align-content: space-around;
+    align-items: center;
+    
+    }
+
+    .mailbtnsuccess {
+        background: #1C1C1C;
+        width: 335px;
+        padding: 113px;
+        position: relative;
+        position: relative;
+        /* margin: -17px; */
+        height: 288px;
+        bottom: 28px;
+        position: relative;
+        background: #1C1C1C;
+    }
+   
+}
+/* @media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+/* } */
+/* @media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/

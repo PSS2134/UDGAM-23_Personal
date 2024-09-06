@@ -1,0 +1,396 @@
+#containerevent{
+    background-image: url(../../icons/eventsBG.png);
+    display: flex;
+    flex-direction: column;
+    padding: 60px 120px;
+    
+
+}
+
+#down
+{
+    flex-wrap: wrap;
+}
+
+#up
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 36px;
+    height: fit-content;
+}
+
+
+
+#heading
+{
+    color: #DDF140;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    font-family: 'Space Grotesk', sans-serif;
+    
+    height: fit-;
+}
+
+.topbutevent{
+    display: flex;
+    /* top: 50px; */
+    /* padding: 18px 4px; */
+    background-color: #09021C;
+    height: 20px;
+    color: #D4F34A;
+    justify-content: space-evenly;
+    width: 222px;
+    height: 44px;
+    border: 1.31218px solid #D4F34A;
+    font-family: 'Action Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 14px;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-decoration: none;
+}
+.topbutevent:hover{
+    
+        color: #09021C;
+        background-color:#D4F34A ;
+          
+    
+}
+
+#moreEvents {
+    text-decoration: none;
+}
+
+#down{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#events{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.containerevent
+{
+    background-color: #FAF9FE;
+    color: #383542;
+    display: flex;
+    flex-direction: row;
+    margin:4px;
+    height: 261px;
+    width:680px;
+}
+
+.count, .heading{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 1000;
+    font-size: 40px;
+    line-height: 100%;
+    font-style: bold;
+}
+
+.count{
+    width:72px;
+}
+
+.count p{
+    margin: 32px 24px 0 24px;
+}
+.content2
+{
+    width:602px;
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 32px 24px 0 0;
+}
+
+.text
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Space grotesk';
+    margin: 24px 24px 28.5px 0;
+}
+
+.reg{
+    background-color: transparent !important;
+    border: 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #3A10AD ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reg img{
+    margin-left: 12px;
+}
+
+.register
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right:24px ;
+}
+
+.live1{
+    background-color: #DDF140;
+    width: 164px;
+    height: 29px;
+    border: 0;
+    border-radius: 14.5px;
+    font-size: 11px;
+    color: #0D0D0D;
+}
+
+.closed
+{
+    background-color:#FC97D9;
+    ;
+    width: 164px;
+    height: 29px;
+    border: 0;
+    border-radius: 14.5px;
+    font-size: 11px;
+    color: #0D0D0D;
+}
+
+#udgamPass
+{
+    background-image: url(../../icons/udgamPassBG.png);
+    background:cover;
+    width: 412px;
+    height: 444px;
+}
+
+
+
+.pass
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pass p
+{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 29px 68px;
+    color: #1C1C1C;
+    font-family: sans-serif;
+}
+
+.pass img{
+    margin-right: 28px;
+}
+
+#priceDate
+{
+    margin: 41px 41px 36px 41px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pdHeading
+{
+    font-weight: 500;
+    font-size: 16.8576px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.39);
+    font-family: sans-serif;
+    margin-bottom: 7px;
+
+}
+
+.price{
+    font-weight: 500;
+    font-size: 44.9535px;
+    line-height: 53px;
+    font-family: sans-serif;
+    color:#DDF140;
+}
+
+.date
+{
+    font-weight: 500;
+    font-size: 28.0959px;
+    line-height: 33px;
+    color: #F0F0F0;
+    font-family: sans-serif;
+
+}
+
+.buyPass button
+{
+    text-align: center;
+    
+}
+
+.buyPass button img{
+    margin-left: 12px;
+}
+
+.buttonwrappass{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.time{
+    width: 412px;
+    height: 40px;
+    background-color: #DDF140;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 500;
+    font-size: 15.4528px;
+    line-height: 24px;
+    font-family: sans-serif;
+    
+}
+
+.time img{
+    margin: 0 11px 0 139px;
+}
+
+.time p{
+    margin: 8.34px 139px 8.34 0;
+    
+}
+
+#barcode
+{
+    width: 412px;
+    height: 73px;
+    background-color: #F0F0F0;
+}
+
+#barcode img
+{
+    margin: 16px 102px;
+}
+
+@media (max-width: 600px){
+    .containerevent
+    {
+height: max-content;
+        width:100%;
+    }
+    #containerevent{
+        padding: 0 10%;
+    }
+    #up{
+        flex-direction: column;
+    }
+    #heading
+{
+    color: #DDF140;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    font-family: 'Space Grotesk', sans-serif;
+    
+    height: fit-;
+}#udgamPass{
+    width:100%;
+}
+#events{
+    width: 100%;
+}
+.count{
+    font-size: x-large;
+    width: fit-content;
+}
+.count, .heading {
+    font-weight: 1000;
+    font-size: x-large;
+    margin-right:0 ;
+    margin-left: 0;
+    padding: 0;
+    width: 100%;
+}
+.count{
+    width: 5%;
+}
+.content2{
+    padding: 0;
+    width: 95%;
+    margin: 0;
+}
+.heading{
+    padding-right: 10px;
+}
+.register{
+    padding-bottom: 24px;
+}
+.reg{
+    font-size: large;
+}
+.count p {
+  visibility: hidden;;
+}
+.pass{
+    width: 100%;
+}
+.buyPass,#barcode{
+    width: 100%;
+}
+.pass p{
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 16%;
+}
+.pass img{
+    margin-right: 0;
+    padding-right: 4%;
+}
+.time{
+    width: auto;
+    height: auto;
+}
+.time img {
+    margin: 0 11px 0 0px;
+}
+.time{
+    justify-content: center;
+    font-size: larger;
+}#barcode img {
+    margin: 16px auto ;
+    width: 80%;
+    margin-left:10% ;
+    margin-right: 10%;
+}
+
+#priceDate {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.price,.date{
+    font-size: xx-large;
+}
+
+}

@@ -1,0 +1,269 @@
+
+.first_last_flex {
+    display: flex;
+    width: 100%;
+}
+
+.wid_text_Field_50 {
+    width: 50%;
+}
+
+.wid_text_Field_100 {
+    width: 100%;
+    height: 56px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.last_field_regg{
+    margin-bottom: 20px;
+}
+.info_reg_txt {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.registerform {
+    width: 100%;
+}
+
+.registerform_div {
+    display: flex;
+    flex-direction: column;
+}
+
+.H21 {
+    padding: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+
+    color: rgba(250, 249, 255, 0.61);
+
+}
+
+.register_dabba {
+    border-width: 1.03084px;
+    border-style: solid;
+    border-color: #DDF140;
+    width: 100%;
+    margin: 10px;
+}
+
+.register_entire_page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 6%;
+    padding-top: 200px;
+}
+
+.delta1 {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+
+    text-transform: capitalize;
+
+    color: rgba(151, 151, 151, 0.77);
+
+}
+.Pinfo {
+    margin: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;/*Sizing*/
+     color: #DDF140;
+    display: flex;
+    letter-spacing: 0.2px;
+  text-transform: uppercase;
+
+  }
+.card_of_pass_register {
+    position: relative;
+
+}
+.pass_Card_register{
+    margin: 10px;
+}
+
+.alpha {
+    position: absolute;
+    top: 29px;
+    left: 68px;
+    font-family: Action Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 125% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.280959px;
+
+    color: #1C1C1C;
+}
+
+.beta {
+    position: absolute;
+    top: 121.5px;
+    left: 42px;
+    font-family: 'Action Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.280959px;
+
+    color: rgba(255, 255, 255, 0.39);
+
+}
+
+.beta1 {
+    position: absolute;
+    top: 170.5px;
+}
+
+.beta2 {
+    position: absolute;
+    top: 212.5px;
+}
+
+.beta3 {
+    position: absolute;
+    top: 252px;
+}
+
+.beta4 {
+    position: absolute;
+    top: 289px;
+}
+
+.beta5 {
+    position: absolute;
+    left: 173px;
+}
+
+.gamma {
+    position: absolute;
+    top: 112px;
+    left: 148px;
+    font-family: Action Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.280959px;
+
+    color: #DDF140;
+
+}
+
+.gamma1 {
+    position: absolute;
+    top: 168px;
+    left: 160px;
+    font-family: Action Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.280959px;
+
+    color: #757575;
+}
+
+.gamma2 {
+    position: absolute;
+    top: 210px;
+    left: 189px;
+
+}
+
+.udgam7 {
+    position: absolute;
+    top: 18.16px;
+    left: 335px;
+}
+
+.Checkout {
+    position: absolute;
+    top: 356.16px;
+    left: 120px;
+}
+.register-progressbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-width: 1.03084px;
+    border-style: solid;
+    border-color: #DDF140;
+}
+
+.c1_reg{
+    display: flex;
+    background: #D4F34A;
+    justify-content: center;
+    align-items: center;
+    font-family: Action Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.4317px;
+    line-height: 14px;
+    color: #1A074E;
+    letter-spacing: 0.02em;
+    width: 100%;
+    height: 40px;
+    }
+    .c2_reg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Action Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.4317px;
+    line-height: 100%;
+    color: #DDF140;
+    width: 100%;
+    height: 40px;
+    }
+
+    @media (max-width: 900px){
+        .register_entire_page {
+            flex-direction: column;
+            padding-top: 320px;
+            justify-content: center;
+        }
+        .pass_Card_register{
+            position: absolute;
+            top: 900px;
+            left: 15px;
+        }
+        .cardphoto{
+            width:340px;
+            
+        }
+        .udgam7{
+            position: absolute;
+            left: 280px;
+        }
+        .Pinfo{
+            font-size: 30px;
+        }
+        .alpha{
+            position: absolute;
+            left: 50px;
+        }
+    
+    }

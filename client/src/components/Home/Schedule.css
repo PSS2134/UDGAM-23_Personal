@@ -1,0 +1,30 @@
+.schedule{
+ background-color: black;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height:60vh;
+}
+
+.h1{
+    margin: 0;
+    padding:0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12.8rem;
+    line-height: 100%;
+    text-align: center;
+    padding-top: 25.0rem;
+    
+    
+;padding-bottom: 3.0rem;
+color: #2b1d6e;
+text-shadow: 0.1rem 0.5rem rgba(252, 151, 217, 1) ;
+}
+@media(max-width:600px){
+
+.getticket h1{
+
+  font-size: 5rem;
+}
+}

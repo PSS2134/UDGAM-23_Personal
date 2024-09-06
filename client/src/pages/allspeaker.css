@@ -1,0 +1,454 @@
+
+/* @font-face {
+    font-family: Founders Grotesk;
+    src: url(Fonts/Test\ Founders\ Grotesk\ Bold\ 700.otf);
+} */
+
+.topallspeaker{
+    display:flex; 
+    align-items: center;
+    justify-content:space-between;
+ padding-top: 130px;   
+ padding-left: 80px;
+ overflow-x: hidden;}
+.topallspeaker h1{
+    font-family: Founders Grotesk;
+    color: #FC97D9;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+}.watchitlive{
+    margin-right: 80px;
+}
+.topallspeaker button{
+    /* top: 50px; */
+    /* padding: 18px 04px; */
+    background-color: #09021C;
+    height:20px ;
+    color: #D4F34A;
+     width:140px;
+     height: 42px;
+     border: 1.31218px solid #D4F34A;
+     font-family: 'Action Sans';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 14px;
+}
+.speakerOdd svg{
+    position: relative;
+    left: -3px;
+}
+.speakerEven svg{
+    position: relative;
+    /* left: -3px; */
+    top: 30px;
+}
+.speaker{
+    
+    position: relative;
+    align-items: center;
+    right: 5px;
+    width: 296px;
+height: 473px;
+background-color: #09021C;
+/* background-color: #9f95bd; */
+
+
+}
+
+.speaker h1{
+    font-family: Action Sans;
+    position: absolute;
+    left: 62px;
+    top: 332px;
+    font-size: 40px;
+    color: white;
+}
+.speaker h2{
+    font-size: 32px;
+    font-family: Action Sans;
+    position: absolute;
+    left: 120px;
+    top: 370px;
+    color:  #DDF140;
+    ;
+}
+.speaker h4{
+    font-family: Action Sans;
+    position: absolute;
+    left: 94px;
+    top: 401px;
+    font-size: 24px;
+    color:#FC97D9;
+    ;
+}
+
+.speakerOdd img{
+    position: relative;
+    top: -301px;
+    left: 21px;
+    width: 250px;
+    height: 250px;
+    border-radius: 324px;
+    /* background-image: url('img.png'); */
+    background-size: cover;
+    display: block;
+}
+.speakerEven img{
+    position: relative;
+    top: -246px;
+    left: 24px;
+    width: 250px;
+    height: 250px;
+    border-radius: 324px;
+    /* background-image: url('img.png'); */
+    background-size: cover;
+    display: block;
+}
+.speker1{
+        background-color: #FC97D9;
+        height: 252px;
+        width: 252px;
+        border-radius: 50%;
+        justify-content: center;
+    
+        
+}
+
+.main1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.main2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/* .speaker svg{
+    height: 300px;
+    width: 300px;
+} */
+
+   
+
+   
+   /* @font-face {
+       font-family: Action Sans;
+       src: url(Fonts/ActionSans-Medium.otf);
+   } */
+   
+   .pastspeakerstitle {
+       font-family: Founders Grotesk;
+       width: fit-content;
+       font-weight: 700;
+       font-size: 64px;
+       line-height: 100%;
+       padding-left: 80px;
+       letter-spacing: -0.02em;
+       color: #44C6B6;
+       text-transform: uppercase;
+   }
+   
+   .buttons {
+       position: relative;
+       float: right;
+       margin-right: 50px;
+       margin-top: 50px;
+       padding: 0;
+   }
+   
+   .button2 {
+       border: none;
+       padding: 0;
+       margin: 0 6px;
+   }
+   
+   .sliderspeak {
+       margin-top: 50px;
+       display: flex;
+       flex-wrap: wrap;background: "#09021C"
+   }
+   
+   .sliderspeak .img {
+       padding: 0 28px;
+   }
+   
+   .sliderspeak .img h1 {
+       font-family: Action Sans;
+       margin-top: 23px;
+       margin-bottom: 0;
+       font-weight: 700;
+       font-size: 32px;
+       line-height: 110%;
+       letter-spacing: -0.02em;
+       color: #44C6B6;
+       height: 35px;
+   }
+   
+   .sliderspeak .img h3 {
+       font-family: Action Sans;
+       margin-top: 4px;
+       font-weight: 500;
+       font-size: 24px;
+       line-height: 110%;
+       letter-spacing: -0.02em;
+       color: #CDCCD0;
+       height: 26px;
+   }
+   
+   .sliderspeak .img p {
+       font-family: Action Sans;
+       margin-top: 4px;
+       margin-bottom: 36px;
+       font-weight: 500;
+       font-size: 16px;
+       line-height: 110%;
+       letter-spacing: -0.02em;
+       color: #6A6771;
+       height: 18px;
+   }
+
+@media(min-width: 470px) and (max-width: 600px){
+    .top h1{
+        font-size:larger;
+    }
+    .speakerOdd{
+    width: 296px;
+    height: 369px;}
+    .speakerEven{
+        width: 296px;
+        height: 413px;}
+    .top button{
+        /* top: 50px; */
+        /* padding: 18px 04px; */
+        background-color: #09021C;
+        height:20px ;
+        color: #D4F34A;
+         width:140px;
+         height: 42px;
+         border: 1.31218px solid #D4F34A;
+         font-family: 'Action Sans';
+         font-style: normal;
+         font-weight: 700;
+         font-size: 16px;
+         line-height: 14px;
+    }
+    .speaker svg{
+        height: 250px;
+        width: 250px;
+    }
+    .speakerOdd h1{
+        font-size: larger;
+        position: absolute;
+    left: 76px;
+    top: 249px;
+    }
+    .speakerOdd h2{
+        font-size: larger;
+        position: absolute;
+       
+        left: 96px;
+        top: 275px;
+    }
+    .speakerOdd h4{
+        font-size: larger;
+        position: absolute;
+       
+        left: 68px;
+        top: 287px;
+    }
+
+
+    .speakerEven h1{
+        font-size: larger;
+        position: absolute;
+    left: 76px;
+    top: 289px;
+    }
+    .speakerEven h2{
+        font-size: larger;
+        position: absolute;
+       
+        left: 96px;
+        top: 310px;
+    }
+    .speakerEven h4{
+        font-size: larger;
+        position: absolute;
+       
+        left: 68px;
+        top: 322px;
+    }
+
+
+    .button2 {
+        visibility: hidden;
+    }
+
+    .speakerOdd img {
+        position: relative;
+        top: -228px;
+        left: 24px;
+        width: 190px;
+        height: 186px;
+        border-radius: 324px;
+        /* background-image: url(img.png); */
+        background-size: cover;
+        display: block;
+    }
+    .speakerEven img {
+        position: relative;
+        top: -200px;
+        left: 21px;
+        width: 204px;
+        height: 205px;
+        border-radius: 324px;
+        /* background-image: url(img.png); */
+        background-size: cover;
+        display: block;
+    }
+    .speaker{
+        right: -22px;
+       }
+    
+}
+
+.pastspeakerstitle{
+
+}
+
+@media (max-width:470px) {
+   .top{
+    margin-bottom: 27px;
+   }
+   .speaker{
+   }
+   
+    .top h1{
+        font-size:medium;
+    }
+    .top button{
+     
+         width:114px;
+         height: 40px;
+         
+    }
+    .main1 ,.main2{
+        justify-content: flex-end;
+    }
+    .speakerOdd{
+        width: 296px;
+        height: 299px;}
+        .speakerEven{
+            width: 296px;
+            height: 344px;}
+    
+        .speaker svg{
+            height: 200px;
+            width: 200px;
+        }
+        .speakerOdd h1{
+            font-size: larger;
+            position: absolute;
+        left: 52px;
+        top: 201px;
+        }
+        .speakerOdd h2{
+            font-size: larger;
+            position: absolute;
+           
+            left: 72px;
+            top: 223px;
+        }
+        .speakerOdd h4{
+            font-size: larger;
+            position: absolute;
+           
+            left: 42px;
+            top: 236px;
+        }
+    
+    
+        .speakerEven h1{
+            font-size: larger;
+            position: absolute;
+            left: 52px;
+            top: 238px;
+        }
+        .speakerEven h2{
+            font-size: larger;
+            position: absolute;
+           
+            left: 72px;
+            top: 260px;
+        }
+        .speakerEven h4{
+            font-size: larger;
+            position: absolute;
+           
+            left: 42px;
+            top: 273px;
+        }
+    
+     
+        
+    
+        .speakerOdd img {
+            position: relative;
+            top: -183px;
+            left: 20px;
+            width: 150px;
+            height: 150px;
+            border-radius: 324px;
+            /* background-image: url(img.png); */
+            background-size: cover;
+            display: block;
+        }
+        .speakerEven img {
+            position: relative;
+            top: -150px;
+            left: 19px;
+            width: 159px;
+            height: 159px;
+            border-radius: 324px;
+            /* background-image: url(img.png); */
+            background-size: cover;
+            display: block;
+        }
+        .button2 {
+            visibility: hidden;
+        }
+.topallspeaker{
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10px;
+}
+        .topallspeaker h1{
+            font-family: Founders Grotesk;
+            color: #FC97D9;
+            font-weight: 700;
+            font-size: xx-large;
+        }
+        .pastspeakerstitle{
+            font-size: xx-large;
+            padding-left: 10%;
+        }
+        .main1{
+            flex-direction: column;
+            align-items: center;justify-content: center;
+        }
+        .speakerOdd svg{
+            position: relative;
+            left: 17%;
+        }
+        .speakerEven svg{
+            position: relative;
+            /* left: -3px; */
+            top: 30px;
+            left: 17%;
+        }
+}
+

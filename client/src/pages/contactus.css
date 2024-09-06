@@ -1,0 +1,135 @@
+.side_box{
+
+    padding-top: 12.5rem;
+}
+.euro{
+    padding-left: 9.375rem;
+    padding-right: 9.375rem;
+}
+.submit_contactus{
+    padding-top: 1rem;
+}
+.contact_us{
+    overflow-x: hidden;  margin-top: 12.5rem;
+    background: linear-gradient(to bottom, #1A074E 0%, #060213 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+}
+.hello{
+    font-family:  sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.25rem;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #FC97D9;
+    text-decoration: none;
+    margin-bottom: 6.25rem; 
+    
+}
+.first_name{
+    height: 4rem;
+    width: 35%;
+    margin-right: 0.625rem;
+}
+.last_name{
+    height: 4rem;
+    width: 35%;
+}
+@media (max-width: 600px){
+    .first_name{
+        width: 100%;
+    }
+}
+@media (max-width: 600px){
+    .last_name{
+        width: 100%;
+        margin-top: 2rem;
+    }
+}
+@media (max-width: 600px){
+    .mail_input{
+        width: 100% !important;
+    }
+}
+@media (max-width: 600px){
+    .levi{
+        height: 4rem !important;
+        width: 100% !important;
+    }
+}
+.mail_input{
+    width: 70.8%;
+    height: 4rem;
+    margin-top: 1.625rem;
+}
+.con{
+    color: white;
+}
+.levi{
+    height: 5rem;
+    width: 70.8%;
+}
+.mikasa{
+    font-family: 'Action Sans';
+    font-style: normal;
+    font-weight: 20;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    color:  #FAF9FF;
+    
+}
+.aot{
+    margin-bottom: 1.25rem;
+}
+.Eren{
+    margin-top: 0.938rem;
+    width: 70.8%;
+    height: 9rem;
+}
+@media (max-width: 600px){
+    .Eren{
+        width: 100%;
+        height: 5rem;
+    }
+}
+.submit{
+    margin-top: 1.7rem;
+    display: flex;
+    flex-direction: row;
+    width: 12rem;
+    height: 5.25rem;
+    background: #F0E266;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+    font: 'Sans-Serif';
+    border-color: #000;
+    box-shadow:  8px 8px 2px 1px #736B1F;
+}
+.saitama{
+    margin-top: 1rem;
+    margin-left: 2.938rem;
+}
+input {
+    
+    margin: 0 ;
+  }
+
+label {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+select {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }

@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    background-color: black;
+    height: 50rem;
+}
+.merch{
+    margin-top: -22px;
+}
+
+.top{
+    display:flex; 
+    align-items: center;
+    justify-content:space-between;
+    margin: 24px;
+    padding:6px;
+    
+}
+.top h1{
+    color: #DDF140;
+    position: relative;
+    top: 0px;
+    left: 54px;
+}
+.topbut{
+    display: flex;
+    /* top: 50px; */
+    /* padding: 18px 4px; */
+    background-color: #09021C;
+    height: 20px;
+    color: #D4F34A;
+    justify-content: space-evenly;
+    width: 222px;
+    height: 44px;
+    border: 1.31218px solid #D4F34A;
+    font-family: 'Action Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 14px;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.topbut:hover{
+    
+        color: #09021C;
+        background-color:#D4F34A ;
+          
+    
+}
+
+.backimg{
+    background-image: url("../../icons/backimg.png");
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rectangle {
+        width: 200px;
+        height: 100px;
+        background: #f5fbff;
+        z-index: 9;
+      }
+
+.but button{
+    display: flex;
+    /* top: 50px; */
+    /* padding: 18px 4px; */
+    height: 20px;
+    color: #09021C;
+    justify-content: space-evenly;
+    width: 219px;
+    height: 88px;
+    font-family: 'Action Sans';
+    font-style:normal;
+  
+    font-weight: 700;
+font-size: 30px;
+line-height: 100%;
+   
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+}
+
+
+@media(min-width: 695px) and (max-width: 934px){
+    .top h1{
+        font-size:245%;
+    }
+}
+
+
+
+@media(min-width: 538px) and (max-width: 695px){
+    .top h1{
+        font-size:161%;
+    }
+    
+    .topbut{
+        /* top: 50px; */
+        /* padding: 18px 04px; */
+        background-color: #09021C;
+        height:20px ;
+        color: #D4F34A;
+         width:160px;
+         height: 42px;
+         border: 1.31218px solid #D4F34A;
+         font-family: 'Action Sans';
+         font-style: normal;
+         font-weight: 700;
+         font-size: 16px;
+         line-height: 14px;
+    }
+    
+        
+}
+
+@media (max-width:538px) {
+   .top{
+    margin-bottom: 27px;
+   }
+    .top h1{
+        font-size:medium;
+    }
+    .topbut{
+     
+         width:127px;
+         height: 40px;
+         
+    }
+    .top svg{
+        display: none;
+    }
+    
+}
+

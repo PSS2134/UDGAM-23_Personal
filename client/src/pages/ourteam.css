@@ -1,0 +1,160 @@
+.teamrow{
+    padding:20px 0;
+}
+.teampage{
+    overflow-x: hidden;
+    background: linear-gradient(to bottom, #1A074E 0%, #060213 100%);
+ 
+    background-size: cover;
+}
+.topallmembers{
+    display:flex; 
+    align-items: center;
+    justify-content:space-between;
+ padding-top: 130px;   
+ padding-left: 80px;
+ padding-bottom: 50px;
+ overflow-x: hidden;
+}
+
+.topallmembers h1{
+    font-family: 'Space Grotesk', sans-serif;
+    color: #FC97D9;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+}
+.memberteam{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.memberteam svg{
+height: 250px;
+width: 250px;
+padding-bottom: 10px;
+}
+.memberteam img{
+    position: absolute;
+    left:0px;
+    top:0px
+    }
+.memberteam h1{
+    font-family: Action Sans;
+    font-size: 40px;
+    color: white;
+}
+.memberteam h2{
+    font-size: 32px;
+    font-family: Action Sans;
+    color:  #DDF140;
+    
+}
+.memberteam h4{
+    font-family: Action Sans;
+    font-size: 24px;
+    color:#FC97D9;
+    
+}
+
+.imgteam{
+    position: relative;
+}
+.imgteam .teammembg {
+    border: 0;
+    position: absolute;
+    top: 13px;
+    left: 29px;
+    width: 196px;
+    border-radius: 324px;
+} 
+.imgteam .umangpic {
+    border: 0;
+    position: absolute;
+    top: 41px;
+    left: 27px;
+    width: 196px;
+    border-radius: 324px;
+} 
+.imgteam .linkicon {
+    border: 0;
+    position: absolute;
+    top: 164px;
+    left: 150px;
+} 
+
+.executive-div{
+    width: 1199px;
+    height: 67px;
+    margin-left: 120px;
+    background: #fc97d9;
+    border: 2px solid #000000;
+    text-align: center;
+   
+}
+.collapse-executive{
+    height: 349px;
+    background: #ddf140;
+    padding: 11px 40px;
+    padding-top: 11px;
+    padding-right: 40px;
+    padding-bottom: 11px;
+    padding-left: 40px;
+    margin-top: 26px;
+    margin-left: 120px;
+    width: 1199px;
+}
+
+.collapse-executive-text{
+    width: 434px;
+    margin-top: 0px;
+    height: 322px;
+    background: #000000;
+    margin-right: 0;
+    margin-left: 17px;
+}
+
+.collapse-executive-img{
+    width: 645px;
+    height: 296px;
+    margin-top: 13px;
+    background: #000000;
+    margin-left: 9px;
+}
+.Teamname{
+    font-size: 24px;
+    font-weight: 700;
+    padding: 0 auto;
+}
+.Teamnamediv{
+    text-align: center;
+    margin: auto 0;
+}
+#btn1{
+    float: right;
+}
+@media (max-width: 600px){
+    .topallmembers h1{
+        font-size: xx-large;
+    }
+    .memberteam h1{
+        font-family: Action Sans;
+        font-size: 32px;
+        color: white;
+    }
+    .memberteam h2{
+        font-size: 24px;
+        font-family: Action Sans;
+        color:  #DDF140;
+        ;
+    }
+    .memberteam h4{
+        font-family: Action Sans;
+        font-size: 16px;
+        color:#FC97D9;
+        ;
+    }
+}

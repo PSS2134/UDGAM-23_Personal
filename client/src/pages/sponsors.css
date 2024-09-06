@@ -1,0 +1,193 @@
+
+.sponsorpage{
+    height: fit-content;
+}
+.sponsorbox{
+}
+.sponsorbox h1{
+    font-family: Founders Grotesk;
+    color: #FC97D9;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    padding-left: 50px;
+    padding-top: 130px;
+    padding-bottom: 80px;
+}
+
+.title-sponsor h3{
+    font-family: Action Sans;
+    color: #DDF140;
+    
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.containersponsorbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.title-sponsor {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.associate-title {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 160px;
+}
+.associate-title2{
+    display: flex;
+    width: calc(100% - 72px);
+    justify-content: center;
+    margin-bottom: 160px;
+}
+
+
+.associate-title .individual-associate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between
+}
+
+.media-partner {
+    width: calc(100% - 105px);
+    margin-bottom: 122px;
+}
+
+.event-partner {
+    width: calc(100% - 105px);
+    margin-bottom: 122px;
+}
+
+.other-partner {
+    width: calc(100% - 105px);
+    margin-bottom: 154px;
+}
+
+.partners h3 {
+    font-family: Action Sans;
+    color: #FC97D9;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    padding-bottom: 20px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.text-button {
+    display: flex;
+    width: calc(100% - 105px);
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-button h1{
+    font-family: Founders Grotesk;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100%;
+    width: 802px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.text-button button {
+    margin-bottom: 100px;
+    width: 324px;
+    height: 80px;
+    background-color: #F0E266;
+    font-family: Action Sans Bold;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    border: 2px solid #000000;
+}
+
+.individual-partner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.associate-title h3,  .partners-subtitle {
+    font-family: Action Sans;
+    color: #DDF140;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+
+
+
+@media (max-width:600px)
+{
+    .sponsorbox h1{
+     
+        font-size: xxx-large;
+        text-align: center;
+        padding-left: 0px;
+
+    }
+    .body{
+        margin: 0;
+        padding: 0;
+    }
+    .title-sponsor svg{
+        width: 80vw;
+    }
+    .associate-title{
+        flex-wrap: wrap;
+        width: fit-content;
+        align-items: center;
+    }
+    .text-button button {
+        width: 200px;
+        height: 60px;
+        font-size: 16px;
+    }
+    .text-button{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .text-button h1{
+        font-size: xx-large;
+        width: 100%;
+    }
+    .media-partner{
+        flex-wrap: wrap;
+        width: fit-content;
+        align-items: center;
+    }
+    .tatalogo{
+        width: 80%;
+    }
+    .lastsponsor,.individual-associate{
+        padding-bottom: 30px;
+    }
+    
+}
